@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Sum_of_Two_Numbers {
+public class SumOfTwoNumbers {
     public static void main(String[] args) {
-
-        try (Scanner sc = new Scanner(System.in)) {
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
         int num1 = sc.nextInt();
@@ -14,6 +13,7 @@ public class Sum_of_Two_Numbers {
         int sum = num1 + num2;
 
         System.out.println("Sum of two numbers = " + sum);
-        }
+
+        sc.close();
     }
 }
