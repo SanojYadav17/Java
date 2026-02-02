@@ -1,3 +1,5 @@
+// Sum of two number using user input
+
 import java.util.Scanner;
 
 public class sum_of_two_numbers {
