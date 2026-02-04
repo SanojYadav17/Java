@@ -2,7 +2,9 @@
     "java.project.sourcePaths": [
         ".",
         "Flowcharts & Pseudocodes",
-        "Variables & Data Types"
+        "Variables & Data Types",
+        "Conditional Statement",
+        "Operators"
     ],
     "java.project.referencedLibraries": []
 }
