@@ -1,21 +1,21 @@
-// Sum of two number using user input
+// // Sum of two number using user input
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class sum_of_two_numbers {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class sum_of_two_numbers {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
-        int num1 = sc.nextInt();
+//         System.out.print("Enter first number: ");
+//         int num1 = sc.nextInt();
 
-        System.out.print("Enter second number: ");
-        int num2 = sc.nextInt();
+//         System.out.print("Enter second number: ");
+//         int num2 = sc.nextInt();
 
-        int sum = num1 + num2;
+//         int sum = num1 + num2;
 
-        System.out.println("Sum of two numbers = " + sum);
+//         System.out.println("Sum of two numbers = " + sum);
 
-        sc.close();
-    }
-}
+//         sc.close();
+//     }
+// }

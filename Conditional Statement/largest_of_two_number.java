@@ -1,4 +1,4 @@
-// largest of two number without user input
+// // largest of two number without user input
 
 // public class largest_of_two_number {
 //     public static void main (String [] args){
@@ -14,26 +14,26 @@
 //     }
 // }
 
-// largest of two number with user input4
+// // largest of two number with user input4
 
-import java.util.*;
+// import java.util.*;
 
-public class largest_of_two_number {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class largest_of_two_number {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+//         System.out.print("Enter first number: ");
+//         int a = sc.nextInt();
 
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+//         System.out.print("Enter second number: ");
+//         int b = sc.nextInt();
 
-        if (a >= b) {
-            System.out.println(a + " is the largest number");
-        } else {
-            System.out.println(b + " is the largest number");
-        }
+//         if (a >= b) {
+//             System.out.println(a + " is the largest number");
+//         } else {
+//             System.out.println(b + " is the largest number");
+//         }
 
-        sc.close();
-    }
-}
+//         sc.close();
+//     }
+// }
