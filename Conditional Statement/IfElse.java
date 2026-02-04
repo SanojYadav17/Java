@@ -1,6 +1,3 @@
-
-import java.util.Scanner;
-
 // If_Else Statement without user input
 
 public class IfElse {
@@ -16,6 +13,7 @@ public class IfElse {
     }
 
     // If_Else Statement with user input
+import java.util.Scanner;
 public class IfElse {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
