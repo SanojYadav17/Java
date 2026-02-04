@@ -6,13 +6,13 @@ public class Logical_Operator {
         boolean b = false;
 
         // Logical AND operator
-        System.out.println("a AND b: " + (a && b)); // false
+        System.out.println("a AND b: " + (a && b));
 
         // Logical OR operator
-        System.out.println("a OR b: " + (a || b)); // true
+        System.out.println("a OR b: " + (a || b));
 
         // Logical NOT operator
-        System.out.println("NOT a: " + (!a)); // false
-        System.out.println("NOT b: " + (!b)); // true
+        System.out.println("NOT a: " + (!a)); 
+        System.out.println("NOT b: " + (!b)); 
     }
 }
