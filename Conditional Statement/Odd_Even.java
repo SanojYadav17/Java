@@ -1,15 +1,15 @@
 // Program to check if a number is odd or even without user input
 
-// public class Odd_Even {
-//     public static void main(String[] args) {
-//         int a = 7;
-//         if (a % 2 == 0) {
-//             System.out.println("The number is even.");
-//         } else {
-//             System.out.println("The number is odd.");
-//         }
-//     }
-// }
+public class Odd_Even {
+    public static void main(String[] args) {
+        int a = 7;
+        if (a % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+    }
+}
 
 
 // Program to check if a number is odd or even with user input
