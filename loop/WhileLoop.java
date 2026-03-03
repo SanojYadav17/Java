@@ -11,7 +11,7 @@ public class WhileLoop {
             count++;
         }
     }
-}
+} 
 
 
 // print number from 1 to 10 using while loop 
@@ -25,5 +25,45 @@ public class WhileLoop {
             System.out.println("Number: " + num);
             num++;
         }
+    }
+}
+
+// print number from 1 to n using while loop
+package loop;
+import java.util.Scanner;
+
+public class WhileLoop {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+
+        int num = 1;
+        while (num <= n) {
+            System.out.print(num + " ");
+            num++;
+        }
+        System.out.println();
+    }
+    
+}
+
+// print sum of first n natural numbers using while loop
+package loop;
+import java.util.Scanner;  
+public class WhileLoop {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
+
+        int sum = 0;
+        int num = 1;
+        while (num <= n) {
+            sum += num;
+            num++;
+        }
+        System.out.println("Sum of first " + n + " natural numbers is: " + sum);
+        scanner.close();
     }
 }
