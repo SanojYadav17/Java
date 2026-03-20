@@ -1,10 +1,6 @@
 {
     "java.project.sourcePaths": [
-        ".",
-        "Flowcharts & Pseudocodes",
-        "Variables & Data Types",
-        "Conditional Statement",
-        "Operators"
+        "src"
     ],
     "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
