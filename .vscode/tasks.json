@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Java: Compile Current File",
+      "type": "process",
+      "command": "javac",
+      "args": ["-d", "out", "${file}"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Java: Run Current File (Fast)",
+      "type": "process",
+      "command": "java",
+      "args": ["-cp", "out", "${fileBasenameNoExtension}"],
+      "dependsOn": ["Java: Compile Current File"],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": true,
+        "clear": true
+      }
+    }
+  ]
+}
