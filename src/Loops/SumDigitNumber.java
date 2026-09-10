@@ -8,8 +8,8 @@ public class SumDigitNumber {
 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-if (num<0) num = -num;
-        int sum = 0;
+          int sum = 0;
+          if (num<0) num = -num;
         while(num !=0){
             sum += num % 10;
             num/=10;
